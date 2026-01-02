@@ -1,16 +1,86 @@
-# React + Vite
+# Pokemon card Ui - PokeAPI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo 👉 [https://verdant-vacherin-97593d.netlify.app/](https://verdant-vacherin-97593d.netlify.app/)
 
-Currently, two official plugins are available:
+A modern, responsive, and visually polished frontend project focused on clean UI, smooth interactions, and contemporary web design aesthetics. This project showcases strong fundamentals in HTML, CSS, and JavaScript with an emphasis on layout, animations, and user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🎨 Modern, minimal UI with a premium visual feel
+* 📱 Fully responsive across desktop, tablet, and mobile devices
+* ⚡ Smooth hover effects and transitions
+* 🧩 Clean component-based structure
+* 🌙 Dark / aesthetic-friendly design language
+* 🚀 Deployed live using Netlify
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **HTML5** – Semantic and accessible markup
+* **CSS3** – Flexbox, modern layouts, animations
+* **React – Interactivity and logic
+* **Netlify** – Hosting & deployment
+
+---
+## 📂 Project Structure
+
+```
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   ├── images
+│   └── icons
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+Installation
+
+Clone the repository
+
+git clone <your-repo-link>
+
+Navigate to the project folder
+
+cd project-folder-name
+
+Install dependencies
+
+npm install
+
+Start the development server
+
+npm run dev
+
+---
+
+## 🎯 Learning Outcomes
+
+* Improved understanding of modern UI layouts
+* Hands-on experience with responsive design principles
+* Better control over CSS animations and transitions
+* Strengthened JavaScript DOM manipulation skills
+* Experience deploying real-world projects
+
+---
+
+## 👨‍💻 Author
+
+**Mohit Vachhani**
+Frontend Developer | UI/UX Enthusiast
+
+* 🌐 Portfolio: *Coming Soon*
+* 🧠 Skills: HTML, CSS, JavaScript, React, UI/UX, Framer,
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub — it really helps and motivates!
