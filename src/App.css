@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #020617, #000);
+  color: white;
+}
+
+.app {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.load-btn {
+  background: linear-gradient(135deg, #6366f1, #22d3ee);
+  border: none;
+  padding: 12px 26px;
+  border-radius: 999px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.poke-card {
+  position: relative;
+  width: 280px;
+  height: 390px;
+  background: linear-gradient(
+    180deg,
+    rgba(15, 23, 42, 0.9),
+    rgba(2, 6, 23, 0.95)
+  );
+  border-radius: 32px;
+  padding: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+}
+
+.poke-glow {
+  position: absolute;
+  inset: -40%;
+  background: radial-gradient(
+    circle,
+    var(--accent),
+    transparent 60%
+  );
+  opacity: 0.35;
+  filter: blur(80px);
+  z-index: 0;
+}
+
+.poke-img-wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+.poke-img-wrapper img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.6));
+}
+
+.poke-name {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  z-index: 2;
+  position: relative;
+}
+
+.poke-types {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0.6rem 0 1rem;
+  z-index: 2;
+  position: relative;
+}
+
+.poke-type {
+  padding: 4px 12px;
+  font-size: 0.7rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  text-transform: capitalize;
+}
+
+.poke-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  z-index: 2;
+  position: relative;
+}
+
+.poke-stat {
+  display: grid;
+  grid-template-columns: 40px 1fr 30px;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.stat-track {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.stat-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 999px;
+  transition: width 0.5s ease;
+}
