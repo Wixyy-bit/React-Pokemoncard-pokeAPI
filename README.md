@@ -75,8 +75,6 @@ npm run dev
 
 **Mohit Vachhani**
 Frontend Developer | UI/UX Enthusiast
-
-* 🌐 Portfolio: *Coming Soon*
 * 🧠 Skills: HTML, CSS, JavaScript, React, UI/UX, Framer,
 
 ---
